@@ -1,0 +1,46 @@
+{
+"__comment": "MANDATORY PARAMETERS",
+"input size": 8,
+"output size": 2,
+"network controller class filepath": "genetic_nn/net_controller.py",
+"network controller class name": "NetController",
+"problem controller class filepath": "lander_example/lander_controller.py",
+"problem controller class name": "LanderController",
+"fitness target": null,
+"max iterations": 81,
+"output function": "TANH",
+"hidden functions set": "TANH",
+"__comment": "SEPARATE FUNCTION NAMES WITH SPACES",
+"min link weight": -2.0,
+"max link weight": 2.0,
+"weight shift standard deviation": 0.05,
+"__comment": "standard deviation param makes little weight fluctuations on crossovers - keep it low!",
+"test processes": 2,
+
+"__comment": "PRIMARY PARAMETERS",
+"offspring quantity": 100,
+"breeding percentage": 0.3,
+"survival percentage": 0.1,
+"__comment": "PARENT CHOOSING METHOD: random OR roulette",
+"parent choosing method": "random",
+
+"__comment": "MUTATION PARAMETERS",
+
+"do divide link mutation": false,
+
+"do weight shift mutation": false,
+
+"do randomize weight mutation": false,
+
+"do randomize all weights mutation": true,
+"randomize all weights prob": 0.05,
+
+"__comment": "ADVANCED PARAMETERS",
+"init connection prob": 1.0,
+"average crossover chance": 0.05,
+
+"__comment": "SAVING OPTIONS",
+"save progress": true,
+"save logs": false,
+"save csv": false
+}

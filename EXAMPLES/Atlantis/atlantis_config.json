@@ -1,0 +1,55 @@
+{
+"__comment": "MANDATORY PARAMETERS",
+"input size": 416,
+"output size": 3,
+"network controller class filepath": "genetic_nn/net_controller.py",
+"network controller class name": "NetController",
+"problem controller class filepath": "atlantis_example/atlantis_controller.py",
+"problem controller class name": "AtlantisController",
+"fitness target": null,
+"max iterations": 10000,
+"output function": "TANH",
+"hidden functions set": "TANH",
+"__comment": "SEPARATE FUNCTION NAMES WITH SPACES",
+"min link weight": -0.01,
+"max link weight": 0.01,
+"weight shift standard deviation": 0.001,
+"__comment": "standard deviation param makes little weight fluctuations on crossovers - keep it low!",
+"test processes": 2,
+
+"__comment": "PRIMARY PARAMETERS",
+"offspring quantity": 100,
+"breeding percentage": 0.25,
+"survival percentage": 0.1,
+"__comment": "PARENT CHOOSING METHOD: random OR roulette",
+"parent choosing method": "roulette",
+
+"__comment": "MUTATION PARAMETERS",
+
+"do new link mutation": true,
+"new link mutation prob": 0.01,
+
+"do divide link mutation": false,
+
+"do alter disabled mutation": false,
+
+"do enable link mutation": false,
+
+"do weight shift mutation": false,
+
+"do randomize weight mutation": true,
+"randomize weight prob": 0.4,
+
+"do randomize all weights mutation": true,
+"randomize all weights prob": 0.2,
+"single randomization prob": 0.5,
+
+"__comment": "ADVANCED PARAMETERS",
+"init connection prob": 0.75,
+"average crossover chance": 0.0,
+
+"__comment": "SAVING OPTIONS",
+"save progress": true,
+"save logs": false,
+"save csv": false
+}

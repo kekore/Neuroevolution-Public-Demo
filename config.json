@@ -1,0 +1,69 @@
+{
+"__comment": "MANDATORY PARAMETERS",
+"input size": 2,
+"output size": 1,
+"network controller class filepath": "genetic_nn/net_controller.py",
+"network controller class name": "NetController",
+"problem controller class filepath": "xor_example/xor_controller.py",
+"problem controller class name": "XorController",
+"fitness target": null,
+"max iterations": 10000,
+"output function": "RELU",
+"hidden functions set": "RELU SIGMOID",
+"__comment": "SEPARATE FUNCTION NAMES WITH SPACES",
+"min link weight": -2.0,
+"max link weight": 2.0,
+"weight shift standard deviation": 0.01,
+"__comment": "standard deviation param makes little weight fluctuations on crossovers - keep it low!",
+"test processes": 2,
+
+"__comment": "PRIMARY PARAMETERS",
+"offspring quantity": 100,
+"breeding percentage": 0.5,
+"survival percentage": 0.25,
+"stagnation limit": 30,
+"max existing species": 3,
+"__comment": "PARENT CHOOSING METHOD: random OR roulette",
+"parent choosing method": "random",
+
+"__comment": "MUTATION PARAMETERS",
+"max mutations once": 1,
+
+"do new link mutation": true,
+"new link mutation prob": 0.05,
+
+"do divide link mutation": true,
+"divide link prob": 0.001,
+"disabling prob": 0.5,
+
+"do alter disabled mutation": true,
+"alter disabled prob": 0.01,
+
+"do enable link mutation": false,
+"enable link prob": 0.01,
+
+"do weight shift mutation": false,
+"weight shift prob": 0.1,
+"min weight shift multiplier": -1.5,
+"max weight shift multiplier": 1.5,
+
+"do randomize weight mutation": true,
+"randomize weight prob": 0.2,
+
+"do randomize all weights mutation": false,
+"randomize all weights prob": 0.05,
+"single randomization prob": 0.75,
+
+"__comment": "ADVANCED PARAMETERS",
+"init connection prob": 1.0,
+"average crossover chance": 0.05,
+"allow recurrent": false,
+"has bias neuron": false,
+
+"__comment": "SAVING OPTIONS",
+"save progress": true,
+"save logs": false,
+"log file name": "log_file.txt",
+"save csv": false,
+"csv file name": "csv_file.csv"
+}

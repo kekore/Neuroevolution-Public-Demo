@@ -1,0 +1,51 @@
+{
+"__comment": "MANDATORY PARAMETERS",
+"input size": 3,
+"output size": 1,
+"network controller class filepath": "genetic_nn/net_controller.py",
+"network controller class name": "NetController",
+"problem controller class filepath": "pong_example/pong_controller.py",
+"problem controller class name": "PongController",
+"fitness target": 21.0,
+"max iterations": 61,
+"output function": "STEP",
+"hidden functions set": "SIGMOID",
+"__comment": "SEPARATE FUNCTION NAMES WITH SPACES",
+"min link weight": -2.0,
+"max link weight": 2.0,
+"weight shift standard deviation": 0.04,
+"__comment": "standard deviation param makes little weight fluctuations on crossovers - keep it low!",
+"test processes": 2,
+
+"__comment": "PRIMARY PARAMETERS",
+"offspring quantity": 100,
+"breeding percentage": 0.4,
+"survival percentage": 0.15,
+"stagnation limit": 40,
+"max existing species": 3,
+"__comment": "PARENT CHOOSING METHOD: random OR roulette",
+"parent choosing method": "roulette",
+
+"__comment": "MUTATION PARAMETERS",
+
+"do divide link mutation": true,
+"divide link prob": 0.005,
+
+"do alter disabled mutation": false,
+
+"do weight shift mutation": false,
+
+"do randomize weight mutation": true,
+"randomize weight prob": 0.6,
+
+"do randomize all weights mutation": false,
+
+"__comment": "ADVANCED PARAMETERS",
+"init connection prob": 1.0,
+"average crossover chance": 0.05,
+
+"__comment": "SAVING OPTIONS",
+"save progress": true,
+"save logs": false,
+"save csv": false
+}

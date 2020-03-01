@@ -1,0 +1,57 @@
+{
+"__comment": "MANDATORY PARAMETERS",
+"input size": 3,
+"output size": 1,
+"network controller class filepath": "genetic_nn/net_controller.py",
+"network controller class name": "NetController",
+"problem controller class filepath": "breakout_example/breakout_controller.py",
+"problem controller class name": "BreakoutController",
+"fitness target": 864.0,
+"max iterations": 351,
+"output function": "TANH",
+"hidden functions set": "TANH",
+"__comment": "SEPARATE FUNCTION NAMES WITH SPACES",
+"min link weight": -2.5,
+"max link weight": 2.5,
+"weight shift standard deviation": 0.04,
+"__comment": "standard deviation param makes little weight fluctuations on crossovers - keep it low!",
+"test processes": 2,
+
+"__comment": "PRIMARY PARAMETERS",
+"offspring quantity": 100,
+"breeding percentage": 0.5,
+"survival percentage": 0.15,
+"stagnation limit": 50,
+"max existing species": 3,
+"__comment": "PARENT CHOOSING METHOD: random OR roulette",
+"parent choosing method": "random",
+
+"__comment": "MUTATION PARAMETERS",
+
+"do new link mutation": true,
+"new link mutation prob": 0.1,
+
+"do divide link mutation": true,
+"divide link prob": 0.005,
+"disabling prob": 0.5,
+
+"do alter disabled mutation": false,
+
+"do weight shift mutation": false,
+
+"do randomize weight mutation": true,
+"randomize weight prob": 0.6,
+
+"do randomize all weights mutation": true,
+"randomize all weights prob": 0.05,
+"single randomization prob": 0.75,
+
+"__comment": "ADVANCED PARAMETERS",
+"init connection prob": 1.0,
+"average crossover chance": 0.05,
+
+"__comment": "SAVING OPTIONS",
+"save progress": true,
+"save logs": false,
+"save csv": false
+}
