@@ -4,6 +4,15 @@
 ##### AUTHOR: ERYK PROKOPCZUK              #####
 ################################################
 
+################################################
+#####        V I D E O   D E M O S         #####
+################################################
+#### PONG: https://youtu.be/1S04De4wXDI     ####
+#### BREAKOUT: https://youtu.be/wNPXSooEgvQ ####
+#### LANDER: https://youtu.be/BG34NE9IX2M   ####
+#### ATLANTIS: https://youtu.be/s0tKbvCVoDU ####
+################################################
+
 The program was coded on Python 3.6.8.
 It is HIGHLY RECOMMENDED to run trainings which use OpenAI Gym
 (all of included except the Xor one) on Linux operating system.
